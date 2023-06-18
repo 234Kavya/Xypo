@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xypo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page1">
+        <nav class="nav-bar">
+            <div>
+                <img  class="logo" src="images/logo.png">
+            </div>
+            <div>
+                <!-- <img src="images/menu.png" class="menubtn"> -->
+                <!-- <img  class="menu"
+                src="images/menu.png"> -->
+            </div>
+        </nav>
+
+        <div class="text">
+            <h1>
+                The purpose is to <br>teach, bring learn to people
+            </h1>
+            <span class="square"></span>
+            <p>There are many variation of passage of Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore magni error adipisci quam delectus explicabo mollitia quasi nobis pariatur architecto fugit ab, natus qui. Fuga expedita error officiis officia nulla.</p>
+            <br>
+            <span class="square"></span>
+            <button class="rm">Read More</button><br><br>
+            <span class="line-1" ></span><br>
+            <span class="line-2"></span><br>
+            <span class="line-3"></span><br>
+        </div>
+
+        <div id ="sidenav">
+            <ul>
+                <li><a href="=#">Home</a></li>
+                <li><a href="=#">About Us</a></li>
+                <li><a href="=#">Features</a></li>
+                <li><a href="=#">Courses</a></li>
+                <li><a href="=#">Offer</a></li>
+                <li><a href="=#">Contact Us</a></li>
+            </ul>
+            <img src="images/menu.png" id="menubtn">
+        </div>
+      
+
+    </div>
+    <section class="main2">
+          
+        <!-- about -->
+        <div class="about">
+            <div class="about_left">
+                
+            </div>
+            <div class="about-right">
+                <h2 class="align_right">About Us</h2>
+                <br>
+                <!-- <span class="line-1 align_right"></span> -->
+                <p class="align_right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, fugit! Aspernatur dolorum officiis, eos nostrum harum cumque iste optio at a voluptatibus ad minus, necessitatibus molestias laudantium inventore </p>
+                <br><span class="line-1 align_right"></span><br>
+                <span class="line-2 align_right"></span><br>
+                <span class="line-3 align_right"></span><br>
+                <br><br>
+                <br><br>
+                <br><br>
+                <br><br>
+                
+                <H2 class="align_right">"Learning is not attained by chance, it<br>mudt be sought for with ador and<br>
+                attend to with diligence</H2>
+
+            </div>
+
+        </div>
+      
+    </section>
+
+    <section class="main3">
+        <div class="pic-tag">
+           <div class="pic"><img class="tag"src="images/pic-1.png"><h6>Lorem ipsum dolor sit amet.</h6></div>
+           <div  class="pic" ><img class="tag" src="images/pic-2.png"><h6>Lorem ipsum dolor sit amet.</h6></div>
+           <div  class="pic" ><img class="tag"src="images/pic-3.png"><h6>Lorem ipsum dolor sit amet.</h6></div>
+        </div><br><br><br>
+        <button class="rm pt-btn">Start Free Trial</button>
+    </section>
+
+    <section>
+        <div class="course">
+            <div class="course-left">
+                <h2>Browse our Top <br> courses</h2><bR>
+                <span class="line-1" ></span><br><br>
+
+                <p class="course-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non quis excepturi rem cupiditate. Porro suscipit eius fugit minima, officiis distinctio non dolore praesentium a ipsa perspiciatis quaerat? Laboriosam, debitis facere.</p><br>
+                <button class="rm course-btn">View All Courses</button><br><br>
+                <span class="line-1" ></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span><br>
+
+            </div>
+            <div class="course-right">
+                <img class="course-img" src="images/course.png">
+            </div>
+        </div>
+    </section>
+
+    
+</body>
+<script>
+    let btn = document.getElementsById("menubtn")
+    let nav = document.getElementById("sidenav");
+    nav.style.right="-250px"
+    nav.onclick = function(){
+     if(nav.style.right =="-250px")
+        {
+            nav.style.right = "0px";
+        }
+        else{
+            nav.style.right = "-250px";
+        }
+    }
+</script>
+
+</html>
